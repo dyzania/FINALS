@@ -1,4 +1,4 @@
-document.getElementById('authForm').addEventListener('submit', function (event) {
+document.getElementById('form').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent form submission
   
     // Get user input
