@@ -1,11 +1,11 @@
 document.getElementById('form').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); // prevent form submission
   
-    // Get user input
+    //user input
     const role = document.getElementById('role').value;
     const password = document.getElementById('password').value;
   
-    // Define valid credentials
+    //defining valid credentials
     const validCredentials = {
       'Department Head': 'SiEsD3ptH34d',
       'Faculty': 'SiEsF4cu1ty',
@@ -13,14 +13,14 @@ document.getElementById('form').addEventListener('submit', function (event) {
       'Student': '3SapatNa!'
     };
   
-    // Check if the role exists in the valid credentials
+    //check if the role exists in the valid credentials
     if (!validCredentials.hasOwnProperty(role)) {
       console.error('Invalid Role Selected');
       document.getElementById('output').innerHTML = '<p style="color: red;">Error: Invalid Role Selected</p>';
       return;
     }
   
-    // Check password validity
+    //check password validity
     if (password === validCredentials[role]) {
       switch (role) {
         case 'Department Head':

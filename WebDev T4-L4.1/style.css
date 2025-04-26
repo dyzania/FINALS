@@ -30,7 +30,7 @@ body {
   }
   
   select, button {
-    width: 100%;
+    width: 96%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
