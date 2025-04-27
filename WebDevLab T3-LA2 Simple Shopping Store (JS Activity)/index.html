@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Sole Philippines</title>
+</head>
+<body>
+	<div class="container">
+		<div class="product">
+			<h2>Air Jordan 1 Low OG Obsidian</h2>
+			<img src="asset/AirJordan1LowOGObsdian_8260.png" alt="">
+			<h3>PHP 8260.00</h3>
+
+			<!--add product to the cart -->
+			<button onclick="addToCart('Jordan Low Obsidian', 8260.00)">Add to Cart</button>
+
+			<!-- remove product from cart -->
+			<button onclick="removeFromCart('Jordan Low Obsidian', 8260.00)">Remove from Cart</button>
+		</div>
+	
+		<div class="product">
+			<h2>Air Jordan 1 Mid</h2>
+			<img src="asset/AirJordan1Mid_7375.png" alt="">
+			<h3>PHP 7375.00</h3>
+
+			<!--add product to the cart -->
+			<button onclick="addToCart('Jordan 1 Mid', 7375.00)">Add to Cart</button>
+
+			<!-- remove product from cart -->
+			<button onclick="removeFromCart('Jordan 1 Mid', 7375.00)">Remove from Cart</button>
+		</div>
+	
+		<!-- shopping cart section -->
+		<div id="cart">
+			<h2>Shopping Cart</h2>
+			<!-- added product will get displayed -->
+			<ul id="products"></ul>
+		</div>
+	</div>
+
+	<script src="./js/cart.js" defer></script>
+</body>
+</html>

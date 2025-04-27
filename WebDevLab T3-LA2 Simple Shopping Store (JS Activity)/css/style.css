@@ -1,0 +1,27 @@
+body {
+    max-width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.product {
+    border: 1px solid rgb(119, 115, 115);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    border-radius: 12px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px
+}
