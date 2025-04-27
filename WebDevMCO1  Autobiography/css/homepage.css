@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+    display: flex;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    height: 100px;
+}
+hr {
+    color: darkcyan;
+}
+nav {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    background-color: black;
+    font-family: 'Oswald';
+}
+nav > .buttons {
+    background-color:black;
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+}
+nav > .buttons > a {
+    text-decoration: none;
+    color: white;
+}
+nav > p {
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 31px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 100%;
+    height: auto;
+}
+.sub_main {
+    display: grid;
+    margin: 0;
+    border-top: 2px solid black;
+}
+.all_about_me {
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+}
+.hero {
+    background: linear-gradient(90deg, black, white);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+aside {
+    padding: 4px;
+    border: 2px solid black;
+    overflow: auto; 
+}   
+
+.as-cntnt-wrapper {
+    position: sticky;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    justify-self: center;
+}
+.as-cntnt-wrapper > img {
+    width: 97%;
+    aspect-ratio: 3/4;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    justify-content: center;
+}
+.personal_info {
+    width: 96%;
+    height: auto;
+}
+.personal_info > p {
+    font-size: clamp(4px, 14px, 18px);
+    justify-self: center;
+    text-align: center;
+    background-color: rgb(174, 158, 158);
+    padding: 2px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+footer {
+    height: 120px;
+    width:100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+.box {
+    margin-top: 12px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    /*background: linear-gradient(20deg, white, black);*/
+    background-color: grey;
+}
+.wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.wrapper > p {
+    margin: 20px;
+    font-size: clamp(4px, 14px, 18px);
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    background-color: black;
+    color: white;   
+    justify-self: center;
+}
+.contact_info > p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px;
+    font-size: clamp(4px, 14px, 18px);
+    height: 40px;
+    width: 54%;
+    padding: 10px;
+    background-color: black;
+    color: white;   
+    justify-self: center;
+}
+.form-container {
+    margin: 20px;
+}
+.form-container > form{
+    justify-self: center;
+    padding: 10px;
+    width: 54%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+input, textarea, button {
+    width: 99%;
+    margin: 15px 15px 15px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+#Send {
+    background-color: green;
+}
+.auto {
+    padding: 40px;
+    background-color: grey;
+}
