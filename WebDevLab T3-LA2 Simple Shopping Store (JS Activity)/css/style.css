@@ -21,7 +21,12 @@ img {
 }
 
 button{
-    background-color: black;
     color: white;
     padding: 10px
+}
+.add {
+    background-color: green;
+}
+.remove {
+    background-color: red;
 }
