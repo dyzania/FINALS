@@ -1,0 +1,137 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #55501f;
+  color: white;
+  height: 55px;
+}
+
+.logo {
+    height: 100%;
+    width: fit-content;
+}
+.logo img {
+    width: 45%;
+    height: auto;
+}
+
+header img {
+  height: 30px;
+}
+.add-post {
+    margin-top: 15px;
+    width: 25%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #504b1b;
+    color: white;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.add-post-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #b0a44c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.post {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.post .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post .user img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.post-actions {
+    display: flex;
+    width: 100%;
+    flex-grow: 2 2 2 1;
+    margin-top: 20px;
+}
+.react {
+    height: 40px;
+    display: flex;
+    width: 23%;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b8989;
+    border: right 1px solid #f2f2f2;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.save {
+    height: 40px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #f2f2f2;
+}
+.user-icon {
+    width: 50px;
+    height: auto;
+}
+.user-icon img {
+    border-radius: 50%;
+}
+.user-info {
+    display: flex;
+}
+.username {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
